@@ -1,4 +1,23 @@
-/* When scrolling is triggered on the html element itself, we’d like the behavior of the scroll to be as fluid as possible. */
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  color: #161616;
+}
+
+a {
+  color: #161616;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: #D73953;
+}
+
+.section-tagline {
+  color: #D73953;
 }
