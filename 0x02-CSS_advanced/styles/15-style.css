@@ -26,8 +26,9 @@
   --section-title-color: var(--color-black);
 }
 
-* {
-  box-sizing: border-box;
+/* universal box-sizing */
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
 html {
